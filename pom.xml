@@ -26,17 +26,20 @@
 	</properties>
 	
 	<distributionManagement>
-		<repository>
-			<id>central</id>
-			<name>releases</name>
-			<url>http://18.234.23.189:8081/artifactory/libs-release-local/</url>
-		</repository>
-		<snapshotRepository>
-			<id>snapshot</id>
-			<name>snapshots</name>
-			<url>http://18.234.23.189:8081/artifactory/libs-snapshot-local/</url>
-		</snapshotRepository>
-	</distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>efba7c37f9d3-releases</name>
+        <url>http://15.206.148.39:8081/artifactory/libs-release-local</url>
+    </repository>
+ 
+	 
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>efba7c37f9d3-snapshots</name>
+        <url>http://15.206.148.39:8081/artifactory/libs-snapshot-local</url>
+    </snapshotRepository>
+</distributionManagement>
+	
 	
 	
 	<scm>
